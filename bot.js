@@ -384,14 +384,6 @@ message.channel.send({embed});
 
 
 
-client.on("ready", () => {
-  function lol() {
-    client.guilds.get('395147213065682956').roles.find("name", "Rainbow").setColor("RANDOM");
-  };
-  setInterval(lol, 1600);
-});
-
-
 
 
 

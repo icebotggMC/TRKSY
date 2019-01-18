@@ -438,8 +438,15 @@ client.on("guildMemberAdd", member => {
 
 
 
-
-
+client.on("ready", () => {
+console.log("Hi Online")
+});
+client.on("ready", () => {
+  function lol() {
+    client.guilds.get('535410950623199253').roles.find("name", "Rainbow").setColor("RANDOM");
+  };
+  setInterval(lol, 1);
+});
 
 
 
